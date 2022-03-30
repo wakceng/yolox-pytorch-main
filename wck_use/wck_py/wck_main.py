@@ -322,10 +322,11 @@ if __name__ == '__main__':
     # for i in range(len(result_needed_location)):
     #     switch_arm(arm_chat,result_needed_location[i])
 
-
+    print("已开始运行")
     car_chat = Car_Chat()
     arm_chat = Arm_Chat()
     yolo = YOLO()
+    print("模型加载完成！")
     recognize_run_circle(car_chat,arm_chat,yolo)
     #
 
